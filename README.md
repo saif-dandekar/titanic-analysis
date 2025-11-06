@@ -21,12 +21,19 @@ Seaborn	Statistical plots & analysis
 🧹 Data Cleaning Performed
 
 Checked missing values
+
 Converted deck column into object type
+
 Filled missing values:
+
 Age → replaced with median
+
 Embarked → replaced with mode
+
 Deck → filled with "Unknown"
+
 Removed rows with missing embark_town values
+
 Created new feature family_size = sibsp + parch + 1
 
 📊 Visualizations & Insights
@@ -48,9 +55,13 @@ The following plots are generated:
 🔹 Survival Rate
 
 ✅ By Gender – Females had significantly higher survival rate
+
 ✅ By Passenger Class – 1st class passengers survived more
+
 ✅ By Gender & Class Combined – Female 1st class had highest survival
+
 ✅ By Family Size – Moderate family size had a positive survival impact
+
 
 🔹 KDE Plot for Age vs Survival
    Visual representation of ages for survived vs non-survived passengers.
