@@ -58,8 +58,11 @@ The following plots are generated:
 📎 Sample Code Snippet
 
 df["age"].fillna(df["age"].median(), inplace=True)
+
 df["embarked"].fillna(df["embarked"].mode()[0], inplace=True)
+
 df["deck"].fillna("Unknown", inplace=True)
+
 df.dropna(subset=['embark_town'], inplace=True)
 
 Future Enhancements
