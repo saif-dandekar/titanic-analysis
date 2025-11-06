@@ -79,5 +79,7 @@ df.dropna(subset=['embark_town'], inplace=True)
 Future Enhancements
 
 Apply Machine Learning models (Logistic Regression, Random Forest) for prediction
+
 Add detailed interactive dashboards with Plotly or Power BI
+
 Perform feature engineering for improved insights
